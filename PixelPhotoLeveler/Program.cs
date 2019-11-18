@@ -6,7 +6,9 @@ namespace PixelPhotoLeveler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("To which drive is your phone mounted?");
+            string drive = Console.ReadLine();
+            Console.WriteLine(drive);
         }
     }
 }
